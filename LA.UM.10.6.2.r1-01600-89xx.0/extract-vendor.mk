@@ -9,8 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mititanium-common-graphics/LA.UM.10.6.2.r1-01600-89xx.0/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
 
 PRODUCT_PACKAGES += \
-    libgralloc.qti \
-    libqdMetaData \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
